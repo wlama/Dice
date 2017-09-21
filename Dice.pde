@@ -12,7 +12,7 @@ void setup()
 }
 void draw()
 {
-  clear();
+  background(0);
   for(int y = 30; y <= 190; y += 70) {
     for(int x = 35; x <= 380; x += 70) {
       Die die = new Die(x, y);
